@@ -17,7 +17,10 @@ export const config: CodeceptJS.MainConfig = {
     }
   },
   include: {
-    I: './steps_file'
+    I: './steps_file',
+    computersPage: './pages/computersPage',
+    newComputerPage: './pages/newComputerPage',
+    editComputerPage: './pages/editComputerPage'
   },
   name: 'otus-js-qa-codeceptjs'
 }
